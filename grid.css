@@ -1,0 +1,52 @@
+.title {
+  font-family: "Rubik";
+}
+#container {
+  width: 95vw;
+  height: 60vh;
+  margin: 0 auto;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.one {
+  border-radius: 20px;
+  background-color: aqua;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.two {
+  border-radius: 20px;
+  background-color: blue;
+  grid-column-start: 8;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.three {
+  border-radius: 20px;
+  background-color: rgb(216, 64, 18);
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+.four {
+  border-radius: 20px;
+  background-color: rgb(3, 121, 38);
+  grid-column-start: 6;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.five {
+  border-radius: 20px;
+  background-color: rgb(30, 156, 4);
+  grid-column-start: 6;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
