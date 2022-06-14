@@ -8,16 +8,29 @@ body {
   padding: 10px;
   margin-top: 30px;
 }
+.button:hover {
+  background-color: transparent;
+  border-width: 3px;
+  border-color: hsl(0, 0%, 95%);
+}
 #one {
   color: hsl(31, 77%, 52%);
+}
+#one:hover {
+  color: hsl(0, 0%, 95%);
 }
 #two {
   color: hsl(184, 100%, 22%);
 }
+#two:hover {
+  color: hsl(0, 0%, 95%);
+}
 #three {
   color: hsl(179, 100%, 13%);
 }
-
+#three:hover {
+  color: hsl(0, 0%, 95%);
+}
 h2 {
   color: hsl(0, 0%, 95%);
   font-size: 1.6em;
@@ -51,10 +64,10 @@ main {
   align-items: center;
   margin-top: 200px;
 }
-/*#grid {
+#grid {
   background-color: bisque;
   border-radius: 20px;
   border-width: 0;
   padding: 20px;
   margin-top: 30px;
-}*/
+}
