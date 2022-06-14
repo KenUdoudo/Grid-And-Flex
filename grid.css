@@ -5,7 +5,7 @@
   width: 95vw;
   height: 60vh;
   margin: 0 auto;
-  background-color: black;
+  /*background-color: black;*/
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 1fr);
